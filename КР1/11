@@ -1,0 +1,64 @@
+ЗАДАНИЕ 11
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>О Папиче</title>
+    <link rel="shortcut icon" href="img/faviconn.ico" type="image/x-icon" /> 
+</head>
+<body>
+    <header>
+        <h1>Заголовок сайта</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </nav>
+    <aside>
+        <h2>Боковая панель</h2>
+        <ul>
+            <li><a href="#">Ссылка 1</a></li>
+            <li><a href="#">Ссылка 2</a></li>
+            <li><a href="#">Ссылка 3</a></li>
+        </ul>
+    </aside>
+    <main>
+        <article>
+            <section>
+                <div class="block">
+                    <img src="gosl1.jpg" alt="Изображение 1">
+                    <h2>Заголовок блока 1</h2>
+                    <p>Основной текст блока 1.</p>
+                    <a href="#" class="read-button">Read More</a>
+                </div>
+            </section>
+            <section>
+                <div class="block">
+                    <img src="papichh.jpg" alt="Изображение 2">
+                    <h2>Заголовок блока 2</h2>
+                    <p>Основной текст блока 2.</p>
+                    <a href="#" class="read-button">Read More</a>
+                </div>
+            </section>
+            <section>
+                <div class="block">
+                    <img src="image3.jpg" alt="Изображение 3">
+                    <h2>Заголовок блока 3</h2>
+                    <p>Основной текст блока 3.</p>
+                    <a href="#" class="read-button">Read More</a>
+                </div>
+            </section>
+            <section>
+                <div class="block">
+                    <img src="image4.jpg" alt="Изображение 4">
+                    <h2>Заголовок блока 4</h2>
+                    <p>Основной текст блока 4.</p>
+                    <a href="#" class="read-button">Read More</a>
+                </div>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
