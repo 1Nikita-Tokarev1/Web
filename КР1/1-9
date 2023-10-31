@@ -1,7 +1,8 @@
-1.<html lang=”ru”> 
+Задача 1. Определите английский язык и utf-8 кодировку страницы согласно семантике HTML5. 
+<html lang=”ru”> 
 <head> 
 <meta charset=”UTF-8”> 
-<title></title> 
+    <title></title> 
 </head> 
 <body> 
 </body> 
@@ -9,33 +10,34 @@
 
 ------------------------------------------------------------------------------------------------------------------------
 
-2.<!DOCTYPE html>
+Задача 2. Добавьте на страницу элемент согласно HTML5 спецификации
 <html>
 <head>
-    <!-- Заголовок документа -->
-    <title>Заголовок документа</title>
+<title>Заголовок документа</title>
 </head>
 <body>
-    <article>
-        <!-- Абзац с текстом "Тело документа" внутри элемента "article" -->
-        <p>Тело документа</p>
-    </article>
+<nav>
+  <ul>
+    <li>Какой-то текст</li>
+    <li>Какой-то текст</li>
+    <li>Какой-то текст</li>
+  </ul>
+</nav>
+Тело документа
 </body>
 </html>
-
 ------------------------------------------------------------------------------------------------------------------------
 
-3. <!DOCTYPE html>
+Задача 3. Найти и исправить ошибки
+<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Предстоящие обсуждения</title>
 </head>
 <body>
-    <!-- Элемент "section" используется для разделения контента веб-страницы -->
+    <h1>Предстоящие обсуждения</h1>
     <section>
-        <!-- Заголовок с использованием "h1" -->
-        <h1>Предстоящие обсуждения</h1>
-        <!-- Неупорядоченный список "ul" с элементами "li" -->
+        <p>В новому году у нас появится огромное количество статей</p>
         <ul>
             <li>Понимание структуры HTML документа</li>
             <li>Когда использовать hgroup</li>
@@ -47,54 +49,49 @@
 
 ------------------------------------------------------------------------------------------------------------------------
 
-4. <!DOCTYPE html>
-<html lang="ru">
+Задача 4. Найти ошибки и исправить
+
+<!DOCTYPE html>
+<html lang=‘ru’>
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Это пример">
-    <meta name="keywords" content="HTML5, CSS3, JavaScript">
-    <!-- Подключение внешнего CSS-файла "mystyles.css" -->
-    <link rel="stylesheet" href="mystyles.css">
+    <link rel="stylesheet" href=«mystyles.css">
+    <meta name="description" content="Это пример" />
+    <meta name="keywords" content="HTML5, CSS3, JavaScript" />
 </head>
 <body>
-    <p>Привет Мир!</p>
+    <p>Привет Мир! </p>
 </body>
 </html>
 
 ------------------------------------------------------------------------------------------------------------------------
 
-5. <!DOCTYPE html>
-<html>
-<head>
-    <!-- Подключение внешнего CSS-файла "mystyles.css" -->
-    <link rel="stylesheet" href="mystyles.css">
-</head>
-<body>
-    <header>
-        <!-- Заголовок h1 веб-сайта -->
-        <h1>Это главный заголовок веб-сайта</h1>
-        <p>Любой текст, включая переносы строк, внутри элемента "p" в заголовке "header"</p>
-    </header>
-</body>
-</html>
+Задача 5. Найти ошибки и исправить 
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <link rel="stylesheet" href="mystyles.css"> 
+</head> 
+<body> 
+<header> 
+     <h1>Это главный заголовок веб-сайта</h1> 
+     <p>Любой текст был бы здесь, но хотелось бы не любой<br /> хотя и любой пойдет, но может все же определимся и<br /> будет что-то четко ясно понятно</p> 
+</body> 
+</header> 
+</html> 
 
 
-5.1 <!DOCTYPE html>
-<html>
-<head>
-    <!-- Подключение внешнего CSS-файла "mystyles.css" -->
-    <link rel="stylesheet" href="mystyles.css">
-</head>
-<body>
-    <header>
-        <!-- Жирный текст внутри элемента "p" -->
-        <strong><p>Любой текст хотя будет что-то четко ясно понятно</p></strong>
-        <!-- Обычный текст внутри элемента "p" -->
-        <p>Опять текст</p>
-        <!-- Курсивный текст внутри элемента "p" -->
-        <em><p>Мне нравится много текста</p></em>
-    </header>
-</body>
+Задача 5.1. Найти ошибки и исправить 
+<!DOCTYPE html> 
+<head> 
+    <link rel="stylesheet" href="mystyles.css"> 
+</head> 
+<body> 
+<header> 
+    <p><strong>Любой текст хотя будет что-то четко ясно понятно</strong></p> 
+    <p>Опять текст</p> 
+    <p><em>Мне нравится много текста</em></p> 
+<header> 
+</body> 
 </html>
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -117,88 +114,96 @@ wbr
 
 ------------------------------------------------------------------------------------------------------------------------
 
-7. <!DOCTYPE html>
+Задача 7. Найдите и удалите атрибуты и теги, которые являются устаревшими после выхода спецификации HTML5.
 <html>
-<head>
-    <title></title>
-</head>
-<body>
-    <em>Text</em> <!-- Выделенный курсивом текст -->
-    Text <!-- Обычный текст -->
-    <figure>
-        <img src="pic.png" alt="Sign"> <!-- Изображение с альтернативным текстом -->
-        <p>Sign</p> <!-- Подпись к изображению -->
-    </figure>
-    <table>
-        <tr>
-            <th>Head</th> <!-- Заголовок таблицы -->
-        </tr>
-        <tr>
-            <td align="left">Data</td> <!-- Ячейка таблицы с выравниванием слева -->
-        </tr>
-    </table>
-    <div>Text</div> <!-- Блок текста -->
-    <code>Text</code> <!-- Текст, отформатированный как код -->
-</body>
+    <head>
+        <title></title>
+    </head>
+    <body>
+            <em>Text</em>
+            <figure>
+                <img src="pic.png">
+                <p>Sign</p>
+            </figure>
+           <table>
+               <tr>
+                   <th>Head</th>
+               </tr>
+               <tr>
+                   <td align=”left”>Data</td>
+               </tr>
+           </table>
+           <code>Text</code>
+    </body>    
 </html>
 
 ------------------------------------------------------------------------------------------------------------------------
 
-8. <!DOCTYPE html>
+ЗАДАНИЕ 8
+<!DOCTYPE html>
 <html>
 <head>
     <title></title>
 </head>
 <body>
     <aside>
-        <h3>Боковая панель</h3> <!-- Заголовок боковой панели -->
-        <p>Some text</p> <!-- Текст в боковой панели -->
+        <h3>Боковая панель</h3>
+        <p>Some text ntrcn texxtSome text ntrcn texxtSome text ntrcn texxtSome text ntrcn texxtSome text ntrcn texxtSome text ntrcn texxtSome text ntrcn texxtSome text ntrcn texxtSome text ntrcn texxtSome text ntrcn texxt</p>
     </aside>
 </body>
 </html>
 
 ------------------------------------------------------------------------------------------------------------------------
 
-9. <!DOCTYPE html>
+Задача 9.
+Создайте на странице заголовок «Title of page» первого уровня. Поместите его в тег для заголовков header. 
+В теге для навигации по сайту создайте три ссылки с текстом «Link 1», «Link 2» и «Link 3» соответственно (используйте атрибут со href со значением «#»). 
+Создайте боковую панель с помощью специального тега. Поместите в него два параграфа с текстом «Paragraph 1» и «Paragraph 2». 
+В теге, который задает содержание сайта вроде новости, статьи создайте заголовок в теге header с текстом «Title of article», параграф с текстом «Some text» и подвал статьи «Footer of article». 
+Для каждого элемента должен использоваться свой определенный тег. Продублируйте созданный блок кода. 
+Созданные две статьи оберните в тег, который представляет собой универсальный раздел документа. 
+Затем создайте подвал страницы с текстом «Footer of page».
+
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Title of page</title> <!-- Заголовок страницы -->
+    <title>Title of page</title>
 </head>
 <body>
     <header>
-        <h1>Title of page</h1> <!-- Заголовок страницы -->
+        <h1>Title of page</h1>
         <nav>
             <ul>
-                <li><a href="#">Link 1</a></li> <!-- Ссылка 1 -->
-                <li><a href="#">Link 2</a></li> <!-- Ссылка 2 -->
-                <li><a href="#">Link 3</a></li> <!-- Ссылка 3 -->
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
             </ul>
         </nav>
     </header>
     
     <aside>
-        <p>Paragraph 1</p> <!-- Параграф 1 -->
-        <p>Paragraph 2</p> <!-- Параграф 2 -->
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
     </aside>
     
     <article>
         <header>
-            <h2>Title of article</h2> <!-- Заголовок статьи -->
+            <h2>Title of article</h2>
         </header>
-        <p>Some text</p> <!-- Текст статьи -->
-        <footer>Footer of article</footer> <!-- Подвал статьи -->
+        <p>Some text</p>
+        <footer>Footer of article</footer>
     </article>
     
     <article>
         <header>
-            <h2>Title of article</h2> <!-- Заголовок статьи -->
+            <h2>Title of article</h2>
         </header>
-        <p>Some text</p> <!-- Текст статьи -->
-        <footer>Footer of article</footer> <!-- Подвал статьи -->
+        <p>Some text</p>
+        <footer>Footer of article</footer>
     </article>
     
     <footer>
-        Footer of page <!-- Подвал страницы -->
+        Footer of page
     </footer>
 </body>
 </html>
