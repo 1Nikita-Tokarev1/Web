@@ -1,0 +1,90 @@
+Задание 10
+<table border="1"> 
+    <tr> 
+        <td colspan="2"></td> 
+        <td>текст</td> 
+        <td>текст</td> 
+        <td>текст</td> 
+        <td>текст</td> 
+        <td>текст</td> 
+        <td>текст</td> 
+    </tr> 
+    <tr> 
+        <td rowspan="4" colspan="2">текст</td> 
+        <td>текст</td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+    </tr> 
+    <tr> 
+        <td>текст</td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+    </tr> 
+    <tr> 
+        <td>текст</td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+    </tr> 
+    <tr> 
+        <td>текст</td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+    </tr> 
+    <tr> 
+        <td rowspan="4">текст</td> 
+        <td rowspan="2">текст</td> 
+        <td>текст</td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+    </tr> 
+    <tr> 
+        <td>текст</td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+         
+    </tr> 
+    <tr> 
+        <td rowspan="2">текст</td> 
+        <td>текст</td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+    </tr> 
+    <tr> 
+        <td>текст</td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+    </tr> 
+    <tr> 
+        <td colspan="2">текст</td> 
+        <td>текст</td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+        <td>текст+<a href="https://yandex.ru/all">ссылка</a></td> 
+    </tr> 
+</table>
