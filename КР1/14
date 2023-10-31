@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ссылки и якоря</title>
+</head>
+<body>
+    <p><a href="#ichi">Ссылка на первый якорь</a></p>
+    <p><a href="#ni">Ссылка на второй якорь</a></p>
+    <p><a href="#san">Ссылка на третий якорь</a></p>
+
+    <p><strong><a id="ichi">Якорь 1</a></strong></p>
+    <p><sup><a id="ni">Якорь 2</a></sup></p>
+    <p><sub><a id="san">Якорь 3</a></sub></p>
+</body>
+</html>
