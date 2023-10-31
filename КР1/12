@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .required:after {
+          content:"*";
+          color: red;
+        }
+    </style>
+</head>
+<body>
+    <em class="required">Пожалуйста, заполните форму. Обязательное поля помечены </em>
+    <form>
+        <fieldset>
+          <legend>Контактная информация</legend>
+          <label for="fname" class="required">Имя </label><input type="text" required id="fname"><br>
+          <label for="number"">Телефон </label><input type="text" id="number"><br>
+          <label for="email" class="required">Email </label><input type="text" required id="email"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Персональная информация</legend>
+            <label for="age" class="required">Возраст </label><input type="text" required id="age"><br>
+            <label for="sex"">Пол </label>
+            <select id="sex">
+                <optgroup>
+                    <option value="woman">Женщина</option>
+                    <option value="man">Мужчина</option>
+                </optgroup>
+            </select><br>
+            <label for="qualities"">Перечислите<br>Личные<br>Качества </label><textarea type="text" id="qualities"></textarea><br>
+          </fieldset>
+          <fieldset>
+            <legend>Выберите ваших любимых животных</legend>
+            <input type="checkbox" id="checkbox1"><label for="checkbox1">Зебра</label><br>
+            <input type="checkbox" id="checkbox2"><label for="checkbox2">Слон</label><br>
+            <input type="checkbox" id="checkbox3"><label for="checkbox3">Кошак</label><br>
+            <input type="checkbox" id="checkbox4"><label for="checkbox4">Антилопа</label><br>
+            <input type="checkbox" id="checkbox5"><label for="checkbox5">Анаконда</label><br>
+            <input type="checkbox" id="checkbox6"><label for="checkbox6">Голубь</label><br>
+            <input type="checkbox" id="checkbox7"><label for="checkbox7">Человек</label><br>
+            <input type="checkbox" id="checkbox8"><label for="checkbox8">Краб</label><br>
+          </fieldset>
+          <input type="submit" value="Отправить информацию">
+      </form>
+</body>
+</html>
