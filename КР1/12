@@ -9,20 +9,35 @@
           content:"*";
           color: red;
         }
+        .ps {
+            margin-bottom: 15px;
+        }
+        h1, .ps {
+            text-align: center;
+        }
+        form {
+            margin: 0 auto;
+            width: 50%;
+        }
+        form > fieldset {
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 <body>
-    <em class="required">Пожалуйста, заполните форму. Обязательное поля помечены </em>
+    <h1>Форма заявки на рабоут в зоопарке</h1>
+    <p class="ps"><em class="required">Пожалуйста, заполните форму. Обязательное поля помечены </em></p>
     <form>
+        <a href="" ></a>
         <fieldset>
-          <legend>Контактная информация</legend>
-          <label for="fname" class="required">Имя </label><input type="text" required id="fname"><br>
-          <label for="number"">Телефон </label><input type="text" id="number"><br>
-          <label for="email" class="required">Email </label><input type="text" required id="email"><br>
+          <legend><strong>Контактная информация</strong></legend>
+          <label for="fname" class="required">Имя </label><input type="text" required id="fname" placeholder="Данил"><br>
+          <label for="number"">Телефон </label><input type="text" id="number" placeholder="7 999 555 44 33)"><br>
+          <label for="email" class="required">Email </label><input type="text" required id="email" placeholder="example@mail.com"><br>
         </fieldset>
         <fieldset>
-            <legend>Персональная информация</legend>
-            <label for="age" class="required">Возраст </label><input type="text" required id="age"><br>
+            <legend><strong>Персональная информация</strong></legend>
+            <label for="age" class="required">Возраст </label><input type="text" required id="age" placeholder="19"><br>
             <label for="sex"">Пол </label>
             <select id="sex">
                 <optgroup>
@@ -30,10 +45,10 @@
                     <option value="man">Мужчина</option>
                 </optgroup>
             </select><br>
-            <label for="qualities"">Перечислите<br>Личные<br>Качества </label><textarea type="text" id="qualities"></textarea><br>
+            <label for="qualities"">Перечислите<br>Личные<br>Качества </label><textarea type="text" id="qualities" placeholder="Умный, красивый, спокойный и тд"></textarea><br>
           </fieldset>
           <fieldset>
-            <legend>Выберите ваших любимых животных</legend>
+            <legend><strong>Выберите ваших любимых животных</strong></legend>
             <input type="checkbox" id="checkbox1"><label for="checkbox1">Зебра</label><br>
             <input type="checkbox" id="checkbox2"><label for="checkbox2">Слон</label><br>
             <input type="checkbox" id="checkbox3"><label for="checkbox3">Кошак</label><br>
