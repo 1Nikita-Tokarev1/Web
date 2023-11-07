@@ -1,64 +1,95 @@
-/* 1 пункт */
+html { background: url("img/OPG.jpg"); }
+
 p {
-    font-size: 20px;
+    font-size: 30px;
     color: #333;
     
-  }
+}
 h1 {
-    font-size: 30px;
+    font-size: 52px;
     color: #FF0000;
     margin-top: 100px;
     margin-bottom: 100px;
-  }
-
-  /* 2 пункт */
-
-#table {
-    color: #c02f99;
-  }
-
-/* 3 пункт */
-
-  .table {
-    text-align: left;
-    color: green;
 }
 
-/* 4 пункт */
+td, th {
+    border: 1px solid rgb(10, 9, 9);
+}
 
-a[href] {
-    color: #0077b6;
-  }
+table {
+  text-align: center
+}
 
-/* 5 пункт */
+#OG_Buda {
+    color: rgb(131, 43, 43);
+    font-size: 60px;
+}
+
+#Feduk {
+  color: rgb(43, 130, 131);
+  font-size: 50px;
+}
+
+#OXXXYMIRON {
+  color: rgba(43, 52, 131, 0.354);
+  font-size: 40px;
+}
+
+#LSP {
+  color: rgb(81, 131, 43);
+  font-size: 30px;
+}
+
+#DD3 {
+  color: rgb(121, 131, 43);
+  font-size: 20px;
+}
+
+#Markul {
+  color: rgb(121, 43, 131);
+  font-size: 10px;
+}
+
+.SONG1 {
+  color: green;
+  font-size: 40px;
+}
+
+.SONG2 {
+  color: purple;
+  font-size: 20px;
+}
+
+a[href] {    
+  background-color: red;
+}
+
+.SONG1 .SONG2 {
+  font-weight: 100;
+}
+
+input[type="text"] {
+  font-size: 20px;
+  margin: 0;
+}
+
+input[type="checkbox"] {
+  font-size: 10px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input[type="date"] {
+  font-size: 20px;
+  margin: 0;
+}
+
+input[type="button"] {
+  color: red;
+  margin: 0;
+}
 
 input[type="submit"] {
-    width: 200px;
-    padding: 5px;
-    border: 1px solid #04fbfb;
-  }
-
-/* 6 пункт */
-
-#Z8 {
-    font-size: 20px;
-    color: #0077b6;
-  }
-
-  .Z9 {
-    font-weight: bold;
-    font-size: 25px;
-  }
-
-/* 7 пункт */
-
-body {
-    background-image: url("OG.jpg");
-   }
-
-/* 8 пункт */
-
-  .table2 , .table4 {
-    color: #0077b6;
-    font-size: 22px;
-   }
+  font-size: 20px;
+  margin: 0;
+}
