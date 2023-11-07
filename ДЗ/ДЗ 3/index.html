@@ -28,7 +28,7 @@
 
                <select>
                     <option value="">Выберите направление новости</option>
-                    <option value="">Развлекательная</option>
+                    <option value="entertaiment">Развлекательная</option>
                     <option value="informative">Информативная</option>
                     <option value="cognitive">Познавательная</option>
                </select>
@@ -44,32 +44,61 @@
                <button type="button">Очистить</button>
                <button type="button">Отправить</button>
             </fieldset>
+
+            <fieldset>
+                <legend>Понравилась форма?</legend>
+              
+                <div>
+                  <input type="checkbox" id="scales" name="scales" checked />
+                  <label for="Yes">Да</label>
+                </div>
+              
+                <div>
+                  <input type="checkbox" id="horns" name="horns" />
+                  <label for="No">No</label>
+                </div>
+              </fieldset>
+
+                <label>
+                  Выбери дату заполнения новости:
+                  <input type="date" name="bday" />
+                </label>
+              
+                <p><button>Submit</button></p>
+
          </form>
         
-        <table border="1">
+        <table id="da">
         <tr>
-            <th>OG Buda</th>
-            <th>Feduk</th>
-            <th>OXXXYMIRON</th>
-            <th>ЛСП</th>
-            <th>3ДД</th>
-            <th>Markul</th>
+            <th id="OG_Buda">OG Buda</th>
+            <th id="Feduk">Feduk</th>
+            <th id="OXXXYMIRON">OXXXYMIRON</th>
+            <th id="LSP">ЛСП</th>
+            <th id="DD3">3ДД</th>
+            <th id="Markul">Markul</th>
         </tr>
         <tr>
-            <td>Вина</td>
-            <td>Краски</td>
-            <td>Город под подошвой</td>
-            <td>Тело</td>
-            <td>Прощание</td>
-            <td  rowspan="2">Zima Blue</td>
+            <td class="SONG1">Вина</td>
+            <td class="SONG1">Краски</td>
+            <td class="SONG1">Город под подошвой</td>
+            <td class="SONG1">Тело</td>
+            <td class="SONG1">Прощание</td>
+            <td  rowspan="2" class="SONG3">Zima Blue</td>
         </tr>
         <tr>
-            <td colspan="2">Откровение</td>
-            <td>1kla$</td>
-            <td>Монетка</td>
-            <td>Отпускай</td>
+            <td colspan="2"  class="SONG2">Откровение</td>
+            <td class="SONG2">1kla$</td>
+            <td class="SONG2">Монетка</td>
+            <td class="SONG2">Отпускай</td>
         </tr>
     </table>
+
+    <footer id="foot">
+        <p>Melon Music</p>
+        <a href="https://afisha.yandex.ru/vladivostok/concert/pussykiller-2023-12-01?source=rubric">Концерт PussyKiller</a>
+        <a href="https://afisha.yandex.ru/vladivostok/concert/alblak52-long-live-812-tour?source=rubric">Концерт Alblak52</a>
+    </footer>
+
     </main>
 </body>
 </html>
