@@ -49,7 +49,7 @@ body {
 /* Шапка */
 .header {
     position: relative;
-    background-image: url("img/OG.jpg");
+    background-image: url("img/OPG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
