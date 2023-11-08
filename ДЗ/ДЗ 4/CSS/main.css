@@ -1,1 +1,77 @@
+.div1 {
+  padding: 30px; /* Внутренний отступ */
+  border: 40px; /* Внешний отступ */
+}
 
+.div2 {
+  box-sizing: border-box; /* Определяет поведение внешнего бокса */
+  border: 40px;
+}
+
+.div3 {
+  box-sizing: border-box; 
+  -moz-box-sizing: border-box; /* Расчет размера бокса(устаревшее)*/
+  -webkit-box-sizing: border-box;
+}
+
+.div4 {
+  box-sizing: content-box; 
+  -moz-box-sizing: content-box; 
+  -webkit-box-sizing: content-box;
+}
+
+.div51{
+  padding: 10px;
+  border: 2px black solid;
+  background: rgba(114, 110, 110, 0.5);
+}
+
+.div52{
+  padding: 10px;
+  margin: 20px;
+  border: 2px black solid;
+}
+
+.div53{
+  display: inline-block; /* Свойство, отображающее элемент */
+  padding: 10px;
+  border: 2px black solid;
+  background: rgba(150, 150, 153, 0.5);
+}
+
+header {
+  padding: 20px;
+  background: rgba(120, 165, 238, 0.745)
+}
+
+nav {
+  margin: 10px;
+  background: rgb(128, 128, 128);
+}
+
+li {
+  display: inline;
+}
+
+section {
+  width: 660px;
+  float: left;
+  margin: 20px;
+  /* 660 + 20 + 20 */
+}
+
+aside {
+  float: left;
+  width: 220px;
+  margin: 15px;
+  padding: 20px;
+  background: rgb(255, 196, 243);
+/* 220 + 20 + 20 */
+}
+
+footer {
+  clear: both; /*Очистка плавающего контента */
+  text-align: center;
+  border-top: 5px solid black;
+  margin: 20px;
+}
