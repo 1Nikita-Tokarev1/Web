@@ -1,1 +1,83 @@
+a:link { /*link - указывает на ссылку, которая не была еще открыта*/
+  color: black;
+}
+
+a:visited { /*visited - указывает на ссылку, которая была посещена*/
+  color: blue;
+}
+
+a:hover{ /* hover - реагирует на наведение мыши  */
+  color:rgb(43, 226, 113);
+  font-weight: 900; /* Становится жирным, когда наводишь*/
+}
+
+a:active { /*active - указывает на ссылку, которая сейчас открыта*/
+  color: red;
+}
+
+p:first-child { /*Находит первого "ребенка" тега и применяет к нему стили*/
+  color: red;
+}
+
+span, div em {
+  padding: 5px;
+  border: 1px solid green;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.first span:nth-child(2n + 1),
+.second span:nth-child(2n + 1) {
+  background-color: lime;
+}
+
+ul.Z4 li:first-child {
+  color: red;
+  font-weight: 900;
+}
+
+ul.Z5 li:last-child {
+  color: rgba(23, 255, 124, 0.523);
+  font-weight: 900;
+}
+
+p i:first-child{
+  color: rgb(43, 211, 226);
+}
+p:first-child i{
+  text-decoration: overline;
+}
+
+div.container1 h1{
+  color: blue;
+}
+div.container1 h2{
+  background-color: blue;
+  color: white
+}
+div.container1 #big{
+  font-size: 200%;
+}
+
+span, div em {
+  padding: 5px;
+  border: 1px solid green;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.first span:nth-child(2n + 1),
+.second span:nth-child(2n + 1) {
+  background-color: lime;
+}
+
+h5::before {
+  content: url(img/OPG.jpg);
+}
+
+a::after {   
+  content: url(img/OPG.jpg);  
+}
+
+div::first-line { 
+  color: red;   
+}
 
