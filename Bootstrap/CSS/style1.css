@@ -1,0 +1,181 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+}
+
+.navbar {
+  display: flex; /* Используем flexbox для расположения элементов в одну линию */
+  justify-content: space-between; /* Равномерное распределение по горизонтали */
+  align-items: center; /* Выравнивание элементов по центру по вертикали */
+  padding: 10px 20px;
+}
+
+.navbar a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.autobtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.autobtn:hover {
+  background-color: red;
+}
+
+#blablabla {
+  display: none;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+
+#blablabla.open {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-content {
+  display: none;
+  margin-top: 10px;
+}
+
+.accordion-item input:checked + .accordion-content {
+  display: block;
+}
+
+.image-column img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #333;
+}
+
+.text-frame {
+  border: 2px solid #333;
+  padding: 10px;
+}
+
+.scrollable-text {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.column h2 {
+  text-align: center;
+  color: #333;
+}
+
+.song-details {
+  text-align: center;
+}
+
+.song-details h3 {
+  color: #333;
+}
+
+.img-styles {
+  width: 300px;
+  height: 200px;
+}
+
+.img-car {
+  width: 800px;
+  height: 400px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.scrollable-block {
+  height: 200px;
+  overflow: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
