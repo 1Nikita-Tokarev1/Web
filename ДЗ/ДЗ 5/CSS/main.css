@@ -70,14 +70,21 @@ span, div em {
 }
 
 h5::before {
-  content: url(img/OPG.jpg);
+  content: url(OPG.jpg);
+  height: 50px;
 }
 
+
+
 a::after {   
-  content: url(img/OPG.jpg);  
+    content: ' ';
+    display: inline-block;
+    background: #bada55 url("OPG.jpg") no-repeat;
+    background-size: 80%;
+    height: 100px;
+    width: 100px;
 }
 
 div::first-line { 
   color: red;   
 }
-
