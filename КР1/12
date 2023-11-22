@@ -25,13 +25,13 @@
     </style>
 </head>
 <body>
-    <h1>Форма заявки на рабоут в зоопарке</h1>
+    <h1>Форма заявки на работу в зоопарке</h1>
     <p class="ps"><em class="required">Пожалуйста, заполните форму. Обязательное поля помечены </em></p>
     <form>
         <a href="" ></a>
         <fieldset>
           <legend><strong>Контактная информация</strong></legend>
-          <label for="fname" class="required">Имя </label><input type="text" required id="fname" placeholder="Данил"><br>
+          <label for="fname" class="required">Имя </label><input type="text" required id="fname" placeholder="Никита"><br>
           <label for="number"">Телефон </label><input type="text" id="number" placeholder="7 999 555 44 33)"><br>
           <label for="email" class="required">Email </label><input type="text" required id="email" placeholder="example@mail.com"><br>
         </fieldset>
